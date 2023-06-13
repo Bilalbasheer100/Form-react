@@ -1,0 +1,83 @@
+.formInput{
+    height: 70px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 20px;
+    width:30%;
+    align-self: center;
+   
+}
+.formInput:focus { 
+    outline:none;
+}
+
+.box{
+    height: 500px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background:#EDEADE
+    
+}
+.container{
+    height:100%;
+     background:#EDEADE
+   
+}
+.wrapper{
+
+}
+.FormInput{
+    height: 150px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 20px;
+    width:30%;
+    align-self: center;
+}
+.FormInput:focus { 
+    outline:none;
+}
+.loginRegisterButton{
+    width: 30%;
+    align-self: center;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #2F4F4F	;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    }
+    .loginRegisterButton:hover{
+        background:gray;
+        transition:0.2s
+    }
+    .labelInput{
+       margin-left:34%;
+       
+       font-family: Arial, Helvetica, sans-serif;
+    }
+    .wrap{
+        height:180px;
+        background:#2F4F4F;
+        width:100
+    }
+    .head{
+        margin-bottom:30px;
+        margin-left:40%;
+        margin-top:20px
+    }
+    .font{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .check{
+        margin-left:47%;
+       
+    }
